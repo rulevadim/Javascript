@@ -1,14 +1,14 @@
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 p, a {
-	text-align: center;
-	width: 200px;
-	display: inline-block;
-	padding: 10px;
-	margin: 1px;
-	border-radius: 5px;
-	background: grey;
+  text-align: center;
+  width: 200px;
+  display: inline-block;
+  padding: 10px;
+  margin: 1px;
+  border-radius: 5px;
+  background: grey;
 }
 
