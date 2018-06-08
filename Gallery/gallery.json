@@ -1,0 +1,17 @@
+[
+	{
+	"name": "one",
+	"imgBig": "img/big/one_big",
+	"imgSmall": "img/small/one_small"
+	},
+	{
+		"name": "two",
+		"imgBig": "img/big/two_big",
+		"imgSmall": "img/small/two_small"
+	},
+	{
+		"name": "three",
+		"imgBig": "img/big/three_big",
+		"imgSmall": "img/small/three_small"
+	}
+]
