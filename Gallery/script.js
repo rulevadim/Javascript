@@ -23,7 +23,7 @@ function createEl(tag, parent, text, link, src) {
   return parent.appendChild(element);
 }
 
-function gallery(callback) {
+function shmallery(callback) {
   var response;
   var xhr = new XMLHttpRequest();
   xhr.open('GET', 'gallery.json');
@@ -40,12 +40,13 @@ function gallery(callback) {
 }
 
 window.onload = function() {
-  gallery(function(response) {
-    var ul = createEl('ul');
-    response.forEach(function(img) {
-      var li = createEl('li', ul);
-      var a = createEl('a', li, null, img.imgBig);
-      var img = createEl('img', a, null, null, img.imgSmall);
+  shmallery(function(result) {
+    const shmul = createEl('ul');
+    result.forEach( img => {
+      console.log(img);
+      const li = createEl('li', shmul);
+      const a = createEl('a', li, null, img.imgBig);
+      const img = createEl('img', a, null, null, img.imgSmall);
     })
   });
 }
